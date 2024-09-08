@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@100;300&display=swap');
+
+body{
+    background-color: rgb(86, 18, 86);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+header nav{
+    background-color: rgb(189, 106, 106);
+    position: sticky;
+    top: 0px;
+    height: 80px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+header nav li{
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size:larger;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.home{
+    color: white;
+    width: 60vw; 
+    height: 60vh;
+    margin-top: 100px; 
+    margin-left: 40px;
+}
+
+.home h1{
+    font-size: 90px;
+    padding: 5px;
+}
+
+.home p{
+    font-size: 40px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.home img{
+    border-radius: 30px;
+    position: relative;
+    left: 63vw;
+    bottom: 500px;
+}
+
+footer h2{
+    text-decoration: underline;
+}
+footer{
+    padding: 15px;
+    color: white;
+    position: relative;
+    bottom: 470px;
+    left: 10px;
+    font-size: 30px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+
