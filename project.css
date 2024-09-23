@@ -12,11 +12,12 @@ body{
     box-sizing: border-box;
 }
 
-header nav{
+header{
     background-color: rgb(189, 106, 106);
     position: sticky;
     top: 0px;
     height: 80px;
+    z-index: 1;
 }
 header nav ul{
     display: flex;

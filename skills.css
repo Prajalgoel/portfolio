@@ -12,11 +12,12 @@ body{
     background-color: rgb(86, 18, 86);
 }
 
-header nav{
+header{
     background-color: rgb(189, 106, 106);
     position: sticky;
     top: 0px;
     height: 80px;
+    z-index: 1;
 }
 header nav ul{
     display: flex;
@@ -56,19 +57,6 @@ a:hover{
 .skills{
     margin: 15px;
     padding: 5px;
-    border: 2px yellow;
-}
-
-.skills {
-    border: 2px solid yellow;
-    border-radius: 15px;
-    outline: 5px solid red;
-}
-
-.c{
-    position: relative;
-    bottom: 10px;
-    padding: 5px;
     border: 2px solid yellow;
     border-radius: 15px;
     outline: 5px solid red;
@@ -83,6 +71,3 @@ a:hover{
     background-color: white;
 }
 
-.c:hover{
-    background-color: white;
-}
